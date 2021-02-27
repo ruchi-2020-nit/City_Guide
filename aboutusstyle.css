@@ -1,0 +1,82 @@
+body{
+  margin: 0;
+  padding: 0;
+  background: url(background/aboutus.jpg) no-repeat;
+  background-size: cover;
+}
+.box{
+	position: absolute;
+    top: -5px;
+    left: calc(15% - 50px);
+  width: 400px;
+  height:600px;
+  background: rgba(0, 0, 0, 0.4);
+  padding: 10px;
+  text-align: center;
+  margin: auto;
+  margin-top: 5%;
+  color: white;
+  font-family: 'Century Gothic',sans-serif;
+}
+
+.box1{
+	position: absolute;
+    top: -5px;
+    left: calc(60% - 50px);
+  width: 400px;
+  height:600px;
+  background: rgba(0, 0, 0, 0.4);
+  padding: 10px;
+  text-align: center;
+  margin: auto;
+  margin-top: 5%;
+  color: white;
+  font-family: 'Century Gothic',sans-serif;
+}
+
+.box-img, 
+.box1-img{
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+}
+.box h1,
+.box1 h1{
+  font-size: 40px;
+  letter-spacing: 4px;
+  font-weight: 100;
+}
+.box h5, 
+.box1 h5{
+  font-size: 20px;
+  letter-spacing: 3px;
+  font-weight: 100;
+}
+.box p, 
+.box1 p{
+  text-align: justify;
+}
+ul{
+  margin: 0;
+  padding: 0;
+}
+.box li, 
+.box1 li{
+  display: inline-block;
+  margin: 6px;
+  list-style: none;
+}
+.box li a, 
+.box1 li a{
+  color: white;
+  text-decoration: none;
+  font-size: 60px;
+  transition: all ease-in-out 250ms;
+}
+.box li a:hover,
+.box1 li a:hover
+{
+  color: #b9b9b9;
+}
+
+
